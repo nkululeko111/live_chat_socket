@@ -1,4 +1,4 @@
-import { io } from "socket.io-client";
+const { io } = require("socket.io-client");
 
 const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
 let socketInstance = null;
